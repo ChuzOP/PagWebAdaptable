@@ -10,9 +10,9 @@ def home():
 def about():
     return render_template('about.html')
     
-# @app.route("/tgraficas")
-# def graficas():
-#     return render_template('graficas.html')
+@app.route("/tgraficas")
+def graficas():
+    return render_template('graficas.html')
    
 if __name__ == "__main__":
     app.run(debug=True) #ponemos nuestra web en modo prueba
