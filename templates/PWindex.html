@@ -1,91 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalogo Web</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <p class="logo">Electrónica X</p>
-            <nav>
-                <a href="#productoEstrella">Producto Estrella</a>
-                <a href="#nproductos">Nuestros productos</a>
-                <a href="/aboutme">Sobre Nosotros</a>
-            </nav>
-        </div>
+      <div class="container">
+        <p class="logo">Electrónica X</p>
+        <nav>
+          <a href="#productoEstrella">Producto Estrella</a>
+          <a href="#nproductos">Nuestros productos</a>
+          <a href="./about.html">Sobre Nosotros</a>
+        </nav>
+      </div>
     </header>
 
     <section id="hero">
-        <h1>Compra los mejores <br> productos</h1>
+      <h1>
+        Compra los mejores <br />
+        productos
+      </h1>
     </section>
     <section id="productoEstrella">
-        <div class="container">
-            <div class="img-p1"></div>
-            <div class="text">
-                <h2>Computadoras <br>Pre-ensambladas</h2>
-                <ul>
-                    <li>Procesador:Core i9-9900K</li>
-                    <li>MotherBorad: Asus ROG 600</li>
-                    <li>Fuente de poder:EVGA 600W 1</li>
-                    <li>RAM: 4 Modulos de RAM 16Gb</li>
-                    <li>Case: Delirium XT-GMR1</li>
-                    <li>Tarjeta Gráfica: NVIDIA 2080 Ti </li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="img-p1"></div>
+        <div class="text">
+          <h2>Computadoras <br />Pre-ensambladas</h2>
+          <ul>
+            <li>Procesador:Core i9-9900K</li>
+            <li>MotherBorad: Asus ROG 600</li>
+            <li>Fuente de poder:EVGA 600W 1</li>
+            <li>RAM: 4 Modulos de RAM 16Gb</li>
+            <li>Case: Delirium XT-GMR1</li>
+            <li>Tarjeta Gráfica: NVIDIA 2080 Ti</li>
+          </ul>
         </div>
+      </div>
     </section>
 
     <section id="nproductos">
-        <h2>Nuestros Productos</h2>
-        <div class="container">
-            <div class="containerc1">
-                <div class="img-p2"></div>
-                <div class="carta1">
-                    <h3>Tarjetas Gráficas</h3>
-                    <ul>
-                        <li>NVIDIA 3080 Ti</li>
-                        <li>NVIDIA 2080 Ti</li>
-                        <li>NVIDIA 2090 Ti</li>
-                        <li>NVIDIA 2070 Ti</li>
-                    <li>NVIDIA 1080 Super</li>
-                    </ul>
-                    <button>+ Información</button>
-                </div>
-            </div>
-            <div class="containerc2">
-                <div class="carta2">
-                    <h3>Tarjetas Madre</h3>
-                    <ul>
-                        <li>AUSS TUF Z690</li>
-                        <li>ROG STRIX Z690</li>
-                        <li>Prime H610M-D</li>
-                        <li>ROG STRIX B660-I</li>
-                    </ul>
-                    <button href="/graficas.html">+ Información</button>
-                </div>
-                <div class="img-p3"></div>
-            </div>
-            <div class="containerc3">
-                <div class="img-p4"></div>
-                <div class="carta3">
-                    <h3>Procesadores</h3>
-                    <li>Intel Corei10-9900K</li>
-                    <li>Intel Corei9-9900K</li>
-                    <li>Intel Corei7-9900K</li>
-                    <li>Intel Corei5-9900K</li>
-                    <button>+ Información</button>
-                </div>
-            </div>
-        </div>  
+      <h2>Nuestros Productos</h2>
+      <div class="container">
+        <div class="containerc1">
+          <div class="img-p2"></div>
+          <div class="carta1">
+            <h3>Tarjetas Gráficas</h3>
+            <ul>
+              <li>NVIDIA 3080 Ti</li>
+              <li>NVIDIA 2080 Ti</li>
+              <li>NVIDIA 2090 Ti</li>
+              <li>NVIDIA 2070 Ti</li>
+              <li>NVIDIA 1080 Super</li>
+            </ul>
+            <button>+ Información</button>
+          </div>
+        </div>
+        <div class="containerc2">
+          <div class="carta2">
+            <h3>Tarjetas Madre</h3>
+            <ul>
+              <li>AUSS TUF Z690</li>
+              <li>ROG STRIX Z690</li>
+              <li>Prime H610M-D</li>
+              <li>ROG STRIX B660-I</li>
+            </ul>
+            <button href="/graficas.html">+ Información</button>
+          </div>
+          <div class="img-p3"></div>
+        </div>
+        <div class="containerc3">
+          <div class="img-p4"></div>
+          <div class="carta3">
+            <h3>Procesadores</h3>
+            <li>Intel Corei10-9900K</li>
+            <li>Intel Corei9-9900K</li>
+            <li>Intel Corei7-9900K</li>
+            <li>Intel Corei5-9900K</li>
+            <button>+ Información</button>
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
-        <div class="container">
-            <p>&copy;Elchushitoojosclasrospa 2022 </p>
-        </div>
+      <div class="container">
+        <p>&copy;Elchushitoojosclasrospa 2022</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
